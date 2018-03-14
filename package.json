@@ -1,0 +1,28 @@
+{
+  "name": "server-vue",
+  "version": "1.0.0",
+  "description": "server-vue",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jackkunfu/server-vue.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jackkunfu/server-vue/issues"
+  },
+  "homepage": "https://github.com/jackkunfu/server-vue#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "vue": "^2.5.16",
+    "vue-server-renderer": "^2.5.16"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.2"
+  }
+}
